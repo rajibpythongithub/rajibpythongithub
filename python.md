@@ -20,3 +20,9 @@ p = Person("Rajib",36)
 print(p.name)
 print(p.age)
 ```
+# 5. What is self in python?
+- The self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
+```
+Refer to previous example of _init_.
+  
+```
