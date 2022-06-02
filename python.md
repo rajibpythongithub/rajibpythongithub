@@ -13,7 +13,7 @@
 - The _init_() function is called automatically every time the class is being used to create a new object.
 ```
 class Person:
-  def _init_(self, name, age):
+  def __init__(self, name, age):
     self.name = name
     self.age = age
 p = Person("Rajib",36)
