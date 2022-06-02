@@ -8,3 +8,15 @@
 ```
 - To check the version of python in command line type : python --version or python -v
 ```
+# 4. What is _init_?
+- All classes have a function called _init_() which is always executed when the class is being initiated.
+- The _init_() function is called automatically every time the class is being used to create a new object.
+```
+class Person:
+  def _init_(self, name, age):
+    self.name = name
+    self.age = age
+p = Person("Rajib",36)
+print(p.name)
+print(p.age)
+```
