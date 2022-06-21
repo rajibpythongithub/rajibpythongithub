@@ -13,7 +13,7 @@ Enter a number : 1234
 After reverse : 4321
 ```    
       
-# 2. Write a  program to a number check Armstrong number or not.
+# 2. Write a  program to a number check armstrong number or not.
 ```
 num = int(input("Enter a number : "))
 sum = 0
@@ -31,7 +31,7 @@ else:
 Enter a number : 153
 153 is an Armstrong number
 ```
-# 3. Write a program to check a number is a Prime number or not.
+# 3. Write a program to check a number is a prime number or not.
 ```
 num = 5
 for i in range(2, num):
@@ -62,7 +62,7 @@ for num in range(lower, upper+1):
 5
 7
 ```
-# 5. Write a program to print Fibonacci series program in using iterative methods.
+# 5. Write a program to print fibonacci series program in using iterative methods.
 ```
 n = 5
 first = 0
@@ -83,7 +83,7 @@ for i in range(0,n):
 2
 3
 ```
-# 6. Write a program to print fibinacci series using recursive method.
+# 6. Write a program to print fibonacci series using recursive method.
 ```
 def fibonacci(num):
     if num==0:
